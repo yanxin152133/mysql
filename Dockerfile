@@ -2,4 +2,4 @@ from mysql:5.6
 COPY my.cnf /etc/mysql/conf.d/mysqlutf8.cnf
 CMD ["mysqld", "--character-set-server=utf8", "--collation-server=utf8_unicode_ci"]
 # 环境变量
-ENV LANG="en_US.UTF-8"
+ENV LANG="c.UTF-8"
